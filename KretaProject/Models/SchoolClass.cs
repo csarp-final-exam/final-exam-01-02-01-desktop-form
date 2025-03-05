@@ -15,7 +15,7 @@
 
         public override string ToString()
         {
-            return $"SchoolClass: Id={Id}, ClassId={ClassId}";
+            return $"{Id}. {ClassId}";
         }
     }
 }
